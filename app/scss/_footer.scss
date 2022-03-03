@@ -1,0 +1,68 @@
+.footer {
+    background-color: $color-black;
+}
+.logo.logo__footer{
+    margin-top: -15px;
+    display: block;
+}
+.footer__inner {
+    padding-top: 30px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__item {
+   flex-basis: 244px;
+}
+.footer__item.footer__item-list{
+    flex-basis: 150px;
+}
+
+.footer__item-title {
+    margin-bottom: 15px;
+    @extend %oswald-700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: $color-green;
+}
+.footer__item-text {
+    margin-bottom: 8px;
+    @extend %oswald-300;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+.footer__item-contact {
+    margin-bottom: 20px;
+}
+.footer__item-title-email,
+.footer__item-title-address,
+.footer__item-title-phone {
+    margin-bottom: 10px;
+    @extend %oswald-400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: $color-green;
+}
+.footer__item-contact-text{
+    @extend %oswald-300;
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    
+}
+.footer__item-contact-social path{
+    transition: fill .3s ease-in;
+}
+.footer__item-contact-social + .footer__item-contact-social{
+    margin-left: 20px;
+}
+.footer__item-contact-social:hover path{
+    fill: $color-white;
+}

@@ -1,0 +1,47 @@
+$color-black : #040A0A;
+$color-green: #43FFD2;
+$color-red: #7D2253;
+$color-pink: #D978AC;
+$color-white: #fff;
+
+
+
+%oswald-200{
+    font-family:  'Oswald';
+    font-weight: 200;
+}
+%oswald-300{
+    font-family:  'Oswald';
+    font-weight: 300;
+}
+%oswald-400{
+    font-family:  'Oswald';
+    font-weight: 400;
+}
+%oswald-700{
+    font-family:  'Oswald';
+    font-weight: 700;
+}
+
+%cormorant-300{
+    font-family: 'Cormorant Garamond';
+    font-weight: 300;
+}
+%cormorant-400{
+    font-family: 'Cormorant Garamond';
+    font-weight: 400;
+}
+
+%button{
+    max-width: 220px;
+    width: 100%;
+    padding: 16px 50px;
+    border: none;
+    background-color: $color-green;
+    color: $color-black;
+    @extend %oswald-700;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}

@@ -1,6 +1,10 @@
 html,
 body {
 	height: 100%;
+	color: $color-white;
+	@extend %oswald-400;
+	// background-color: #282828;
+	background-color: $color-black;
 }
 
 .wrapper {
@@ -17,10 +21,15 @@ body {
 }
 
 .container{
-  max-width: 1200px;
+  max-width: 1140px;
   margin: 0 auto;
   padding: 0 15px;
 }
+button{
+	cursor: pointer;
+}
+
+
 
 
 
